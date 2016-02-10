@@ -635,6 +635,7 @@ been tested and is not recommended.
 [[client_compatibility_0.6.0]]
 === Client compatibility
 
+
 Kudu 0.6.0 maintains wire compatibility with Kudu 0.5.0. This means that a Kudu 0.6.0
 client can communicate with a Kudu 0.5.0 cluster, and vice versa. For that reason,
 you do not need to upgrade client JARs at the same time the cluster is upgraded.
